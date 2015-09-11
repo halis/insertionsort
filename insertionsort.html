@@ -1,14 +1,14 @@
 <!doctype html>
 <html>
 <head>
-	<script type="text/javascript" src='stack.js'></script>
+	<script type="text/javascript" src='insertionsort.js'></script>
 </head>
 <body>
 	<script type="text/javascript">
 		var arr, sorter;
 		arr = [8, 1, 5, 2, 6, 3, 7, 4];
 		
-		sorter = new InsertionSort(arr);
+		sorter = new InsertionSort(arr); // insertionSort: 0.156ms
 
 		console.log(sorter); // InsertionSort {original: Array[8], sorted: Array[8]}
 		console.log(sorter.original); // [8, 1, 5, 2, 6, 3, 7, 4]
